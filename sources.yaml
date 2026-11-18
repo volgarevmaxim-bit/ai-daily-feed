@@ -1,0 +1,44 @@
+# AI Daily Feed — источники (лонгриды / research / туториалы)
+# type: feed (RSS/Atom) | sitemap (sitemap.xml + path_filter) | scrape (regex из HTML)
+sources:
+  # --- Лонгриды / research / туториалы ---
+  - name: OpenRouter Blog
+    category: ai-major
+    type: feed
+    url: https://openrouter.ai/blog/feed.xml
+  - name: alphaXiv Trending
+    category: ai-major
+    type: scrape
+    url: https://www.alphaxiv.org/
+    regex: '/abs/(\d{4}\.\d+)'
+    link_prefix: 'https://arxiv.org/abs/'
+    date_from_arxiv_id: true
+  - name: Claude Academy
+    category: ai-major
+    type: scrape
+    url: https://academy.claude.com/courses
+    regex: 'courses/([a-z0-9-]+)'
+    link_prefix: 'https://academy.claude.com/courses/'
+    title_from_slug: true
+  - name: Anthropic Research
+    category: ai-major
+    type: sitemap
+    url: https://www.anthropic.com/sitemap.xml
+    path_filter: /research/
+  - name: Google DeepMind
+    category: ai-major
+    type: feed
+    url: https://deepmind.google/blog/rss.xml
+  - name: Hugging Face
+    category: ai-major
+    type: feed
+    url: https://huggingface.co/blog/feed.xml
+  - name: Simon Willison
+    category: ai-major
+    type: feed
+    url: https://simonwillison.net/atom/everything/
+  # --- Лидеры мнений ---
+  - name: Евгений Кузнецов
+    category: opinion
+    type: feed
+    url: https://eugenykuznetsov.substack.com/feed
