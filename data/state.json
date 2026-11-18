@@ -183,11 +183,11 @@
    "https://openrouter.ai/blog/tutorials/use-openrouter-models-in-cursor-try-it-with-moonshot-ais-kimi-k2/",
    "https://openrouter.ai/blog/tutorials/video-generation-api/"
   ],
-  "updated": "2026-11-18T14:15:18Z"
+  "updated": "2026-11-18T14:41:18Z"
  },
  "alphaXiv Trending": {
   "seen": [
-   "https://arxiv.org/abs/2602.13691",
+   "https://arxiv.org/abs/2609.38908",
    "https://arxiv.org/abs/2611.21003",
    "https://arxiv.org/abs/2611.21072",
    "https://arxiv.org/abs/2611.21250",
@@ -209,7 +209,7 @@
    "https://arxiv.org/abs/2611.23219",
    "https://arxiv.org/abs/2611.23226"
   ],
-  "updated": "2026-11-18T14:15:19Z"
+  "updated": "2026-11-18T14:41:18Z"
  },
  "Claude Academy": {
   "seen": [
@@ -243,7 +243,7 @@
    "https://academy.claude.com/courses/teaching-ai-fluency",
    "https://academy.claude.com/courses/tool-use-with-the-messages-api"
   ],
-  "updated": "2026-11-18T14:15:21Z"
+  "updated": "2026-11-18T14:41:18Z"
  },
  "Anthropic Research": {
   "seen": [
@@ -467,7 +467,7 @@
    "https://www.anthropic.com/research/your-thoughts-on-ai",
    "https://www.anthropic.com/research/zero-days"
   ],
-  "updated": "2026-11-18T14:15:22Z"
+  "updated": "2026-11-18T14:41:18Z"
  },
  "Google DeepMind": {
   "seen": [
@@ -572,7 +572,7 @@
    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
   ],
-  "updated": "2026-11-18T14:15:22Z"
+  "updated": "2026-11-18T14:41:18Z"
  },
  "Hugging Face": {
   "seen": [
@@ -1485,7 +1485,7 @@
    "https://huggingface.co/blog/zero-shot-vqa-docmatix",
    "https://huggingface.co/blog/zerogpu-aoti"
   ],
-  "updated": "2026-11-18T14:15:24Z"
+  "updated": "2026-11-18T14:41:19Z"
  },
  "Simon Willison": {
   "seen": [
@@ -1520,7 +1520,7 @@
    "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
    "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
   ],
-  "updated": "2026-11-18T14:15:25Z"
+  "updated": "2026-11-18T14:41:19Z"
  },
  "Евгений Кузнецов": {
   "seen": [
