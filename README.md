@@ -1,8 +1,10 @@
 # AI Daily Feed
 
-Персональная лента чтения: свежие записи из блогов AI-мейджоров и лидеров мнений.
-К каждой записи — короткое саммари, почти полный перевод-пересказ и критический разбор
-(всё генерирует DeepSeek). Статический сайт, обновляется несколько раз в день.
+Персональная лента лонгридов по AI: research, туториалы и курсы от OpenRouter, alphaXiv, Claude Academy, Anthropic Research, DeepMind, Hugging Face, Simon Willison и Евгения Кузнецова. К каждой записи — короткое саммари, почти полный перевод-пересказ и критический разбор (DeepSeek).
+
+**Live:** https://volgarevmaxim-bit.github.io/ai-daily-feed/
+
+Обновляется GitHub Actions cron каждые 6 часов (fetch → summarize → commit → Pages).
 
 ## Локальный запуск
 
@@ -46,6 +48,8 @@ run.bat
 RSS/Atom: OpenRouter Blog, Google DeepMind, Hugging Face, Simon Willison, Евгений Кузнецов (Substack).
 Sitemap-scrape: Anthropic Research (`/research/`).
 HTML-scrape: alphaXiv Trending (трендовые arXiv-статьи с главной), Claude Academy (новые курсы).
+
+⚠️ Евгений Кузнецов (substack) отдаёт 403 с GitHub Actions IP — обновляется только локальным прогоном `fetch.py` + `summarize.py`. Остальные 7 источников обновляет cron.
 
 ## Перенос на GitHub Pages (следующий шаг)
 
