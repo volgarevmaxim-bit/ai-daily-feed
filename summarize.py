@@ -38,7 +38,7 @@ def load_env():
                 k, v = line.split("=", 1)
                 env[k] = v
     # переменные окружения (CI) имеют приоритет
-    for k in ("DEEPSEEK_API_KEY", "DEEPSEEK_BASE_URL", "LLM_MODEL"):
+    for k in ("DEEPSEEK_API_KEY", "DEEPSEEK_BASE_URL", "LLM_MODEL", "FEEDBACK_URL"):
         if os.environ.get(k):
             env[k] = os.environ[k]
     return env
@@ -146,7 +146,7 @@ def _parse_json(s):
     raise ValueError("unparseable json")
 
 
-def process(env, it):
+def process(env, it, profile_txt):
     client = httpx.Client(verify=False, follow_redirects=True, timeout=120, headers={"User-Agent": UA})
     try:
         text = extract_text(client, it)
@@ -158,7 +158,8 @@ def process(env, it):
                 f"Дата: {it.get('published','')}\n"
                 f"URL: {it['url']}\n\nТекст:\n{text}")
         try:
-            resp = llm(client, env, [{"role": "system", "content": SYSTEM},
+            sys_msg = SYSTEM + ("\n\n" + profile_txt if profile_txt else "")
+            resp = llm(client, env, [{"role": "system", "content": sys_msg},
                                      {"role": "user", "content": user}])
             d = _parse_json(resp)
             merged = {**it, "title": _to_str(d.get("title", it["title"])),
@@ -194,9 +195,32 @@ def main():
     existing = json.load(open(ITEMS, encoding="utf-8")) if os.path.exists(ITEMS) else []
     by_url = {i["url"]: i for i in existing}
 
+    profile_txt = ""
+    fb_url = env.get("FEEDBACK_URL")
+    if fb_url:
+        try:
+            pclient = httpx.Client(verify=False, timeout=15, headers={"User-Agent": UA})
+            r = pclient.get(fb_url.rstrip("/") + "/profile")
+            if r.status_code == 200:
+                prof = r.json().get("sources", [])
+                likes = [s for s in prof if s.get("score", 0) > 0][:12]
+                dislikes = [s for s in prof if s.get("score", 0) < 0][:12]
+                parts = []
+                if likes:
+                    parts.append("нравятся источники: " + ", ".join(f"{s['source']} (+{s['pos']})" for s in likes))
+                if dislikes:
+                    parts.append("не нравятся: " + ", ".join(f"{s['source']} (-{s['neg']})" for s in dislikes))
+                if parts:
+                    profile_txt = ("Профиль предпочтений читателя (по оценкам +/-): " + "; ".join(parts) +
+                                   ". Учитывай при пересказе: для нравящихся источников пересказ полнее и глубже; "
+                                   "для не-нравящихся — короче, критический разбор строже.")
+            pclient.close()
+        except Exception as ex:
+            print("FEEDBACK profile недоступен, продолжаю без него:", str(ex)[:100])
+
     done = 0
     with ThreadPoolExecutor(max_workers=args.workers) as ex:
-        futures = {ex.submit(process, env, it): it for it in items}
+        futures = {ex.submit(process, env, it, profile_txt): it for it in items}
         for fut in as_completed(futures):
             url, merged = fut.result()
             merged.pop("content_html", None)

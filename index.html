@@ -115,6 +115,7 @@ try { fb = JSON.parse(localStorage.getItem('aidf.feedback')||'{}'); } catch(e){}
 let ALL = [];
 let cat = 'all', q = '';
 let curListLen = 0, curSrcs = 0;
+const FEEDBACK_URL = "";  // вписать: http://<VPS>:8099  (POST /feedback, GET /profile); пусто = выкл
 
 const $ = s => document.querySelector(s);
 const esc = s => (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -238,6 +239,16 @@ function exportFb(){
   URL.revokeObjectURL(a.href);
 }
 
+function syncFeedback(){
+  if(!FEEDBACK_URL || !Object.keys(fb).length) return;
+  const last = parseInt(localStorage.getItem('aidf.fb_synced_at')) || 0;
+  if(Date.now() - last < 24*3600*1000) return;  // не чаще раза в сутки
+  const data = Object.entries(fb).map(([id,v])=>({id, ...v}));
+  fetch(FEEDBACK_URL.replace(/\/$/,'') + '/feedback', {
+    method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data)
+  }).then(r=>r.json()).then(()=>{ localStorage.setItem('aidf.fb_synced_at', String(Date.now())); }).catch(()=>{});
+}
+
 document.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () => {
   document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));
   c.classList.add('on'); cat = c.dataset.cat; render();
@@ -268,6 +279,8 @@ fetch('data/items.json').then(r=>r.json()).then(items => {
 }).catch(e => {
   $('#feed').innerHTML = '<div class="empty">Не удалось загрузить data/items.json — запустите локальный сервер (python -m http.server).</div>';
 });
+
+syncFeedback();
 </script>
 </body>
 </html>
