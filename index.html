@@ -8,6 +8,7 @@
 :root{
   --bg:#0f1115; --card:#161a22; --border:#262b36; --fg:#e6e8eb;
   --muted:#98a1b3; --accent:#6c8cff; --opinion:#d98c5f; --dim:#3a3f4b;
+  --fs:15px;
 }
 [data-theme="light"]{
   --bg:#f6f7f9; --card:#ffffff; --border:#e2e5ea; --fg:#1c2027;
@@ -17,16 +18,18 @@
 html,body{margin:0;padding:0}
 body{
   background:var(--bg); color:var(--fg);
-  font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;
+  font-size:var(--fs); line-height:1.55;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Inter,sans-serif;
   -webkit-font-smoothing:antialiased;
 }
 .wrap{max-width:760px;margin:0 auto;padding:28px 18px 80px}
 header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
 h1{font-size:22px;margin:0;letter-spacing:-.01em}
-.sub{color:var(--muted);font-size:13px;margin:2px 0 0}
+.sub{color:var(--muted);font-size:0.87em;margin:2px 0 0}
+.head-btns{display:flex;gap:6px;align-items:center}
 .icon-btn{background:none;border:1px solid var(--border);color:var(--muted);border-radius:8px;
-  padding:4px 10px;font-size:13px;cursor:pointer}
-.icon-btn:hover{color:var(--fg)}
+  padding:4px 10px;font-size:13px;cursor:pointer;line-height:1.4}
+.icon-btn:hover{color:var(--fg);border-color:var(--dim)}
 .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 6px;align-items:center}
 .chip{border:1px solid var(--border);background:transparent;color:var(--muted);border-radius:999px;
   padding:5px 13px;font-size:13px;cursor:pointer;white-space:nowrap}
@@ -42,31 +45,40 @@ h1{font-size:22px;margin:0;letter-spacing:-.01em}
 .card.read .title,.card.read .summary{color:var(--muted)}
 .card.read .title{font-weight:400}
 .meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:7px}
-.badge{font-size:11px;padding:2px 8px;border-radius:6px;font-weight:600;letter-spacing:.02em}
+.badge{font-size:0.73em;padding:2px 8px;border-radius:6px;font-weight:600;letter-spacing:.02em}
 .badge.ai-major{background:color-mix(in srgb,var(--accent) 18%,transparent);color:var(--accent)}
 .badge.opinion{background:color-mix(in srgb,var(--opinion) 18%,transparent);color:var(--opinion)}
-.src{font-size:12.5px;color:var(--fg);font-weight:600}
-.time{font-size:12px;color:var(--muted)}
+.src{font-size:0.83em;color:var(--fg);font-weight:600}
+.time{font-size:0.8em;color:var(--muted)}
 .spacer{flex:1}
-.read-toggle{background:none;border:none;color:var(--muted);cursor:pointer;font-size:13px;padding:2px 6px;border-radius:6px}
+.fb-btn{background:none;border:1px solid var(--border);color:var(--muted);cursor:pointer;font-size:12px;
+  width:22px;height:22px;border-radius:6px;line-height:1;padding:0;
+  display:inline-flex;align-items:center;justify-content:center}
+.fb-btn:hover{color:var(--fg);border-color:var(--dim)}
+.fb-btn.pos.active{color:#fff;background:#2ea043;border-color:#2ea043}
+.fb-btn.neg.active{color:#fff;background:#da3633;border-color:#da3633}
+.read-toggle{background:none;border:none;color:var(--muted);cursor:pointer;font-size:0.87em;padding:2px 6px;border-radius:6px}
 .read-toggle:hover{color:var(--fg)}
 .card.read .read-toggle{color:var(--accent)}
-.title{font-size:16px;margin:0 0 6px;font-weight:650;line-height:1.35}
-.summary{margin:0;color:var(--fg);font-size:14px}
-.full{margin-top:12px;border-top:1px solid var(--border);padding-top:12px;font-size:14px}
-.full h3{font-size:13px;margin:14px 0 6px;color:var(--accent)}
-.full h4{font-size:14px;margin:12px 0 4px}
+.title{font-size:1.1em;margin:0 0 6px;font-weight:650;line-height:1.35}
+.summary{margin:0;color:var(--fg);font-size:0.93em}
+.full{margin-top:12px;border-top:1px solid var(--border);padding-top:12px;font-size:0.93em}
+.full h3{font-size:0.93em;margin:14px 0 6px;color:var(--accent)}
+.full h4{font-size:1em;margin:12px 0 4px}
 .full p{margin:8px 0}
 .full ul,.full ol{margin:8px 0;padding-left:22px}
 .full li{margin:4px 0}
-.full code{background:var(--dim);padding:1px 5px;border-radius:4px;font-size:13px}
-.full pre{background:var(--dim);padding:10px;border-radius:8px;overflow-x:auto;font-size:13px}
+.full code{background:var(--dim);padding:1px 5px;border-radius:4px;font-size:0.93em}
+.full pre{background:var(--dim);padding:10px;border-radius:8px;overflow-x:auto;font-size:0.93em}
 .full blockquote{border-left:3px solid var(--dim);margin:8px 0;padding:2px 12px;color:var(--muted)}
 .critique{margin-top:10px;background:color-mix(in srgb,var(--opinion) 7%,transparent);
   border:1px solid color-mix(in srgb,var(--opinion) 22%,transparent);border-radius:10px;padding:10px 14px}
 .critique h3{color:var(--opinion)}
-.orig{display:inline-block;margin-top:12px;color:var(--accent);text-decoration:none;font-size:14px}
+.orig{display:inline-block;margin-top:12px;color:var(--accent);text-decoration:none;font-size:0.93em}
 .orig:hover{text-decoration:underline}
+.collapse{margin-top:14px;display:block;background:var(--dim);border:none;color:var(--fg);
+  padding:6px 14px;border-radius:8px;cursor:pointer;font-size:0.87em}
+.collapse:hover{filter:brightness(1.12)}
 .empty{color:var(--muted);text-align:center;padding:40px 0}
 </style>
 </head>
@@ -77,7 +89,12 @@ h1{font-size:22px;margin:0;letter-spacing:-.01em}
       <h1>AI Daily Feed</h1>
       <div class="sub">лонгриды, research и курсы по AI · саммари + пересказ + критический разбор</div>
     </div>
-    <button class="icon-btn" id="themeBtn" title="переключить тему">☾</button>
+    <div class="head-btns">
+      <button class="icon-btn" id="fsMinus" title="меньше текст">A−</button>
+      <button class="icon-btn" id="fsPlus" title="больше текст">A+</button>
+      <button class="icon-btn" id="exportBtn" title="скачать оценки (JSON)">⤓</button>
+      <button class="icon-btn" id="themeBtn" title="переключить тему">☾</button>
+    </div>
   </header>
 
   <div class="toolbar">
@@ -93,15 +110,17 @@ h1{font-size:22px;margin:0;letter-spacing:-.01em}
 <script>
 const CAT_LABEL = { "ai-major":"Лонгрид", "opinion":"Лидер мнений" };
 const read = new Set(JSON.parse(localStorage.getItem('aidf.read')||'[]'));
+let fb = {};
+try { fb = JSON.parse(localStorage.getItem('aidf.feedback')||'{}'); } catch(e){}
 let ALL = [];
 let cat = 'all', q = '';
+let curListLen = 0, curSrcs = 0;
 
 const $ = s => document.querySelector(s);
 const esc = s => (s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 function md(src){
   let t = esc(src).replace(/\r\n/g,"\n");
-  // code blocks first
   t = t.replace(/```([\s\S]*?)```/g, (_,c)=>`<pre>${c.trim()}</pre>`);
   t = t.replace(/`([^`]+)`/g, '<code>$1</code>');
   const lines = t.split('\n');
@@ -134,17 +153,27 @@ function fmtDate(s){
   return d.toLocaleDateString('ru-RU',{day:'numeric',month:'short',year:'numeric'});
 }
 
+function fbSummary(){
+  const pos = Object.values(fb).filter(x=>x.v===1).length;
+  const neg = Object.values(fb).filter(x=>x.v===-1).length;
+  return (pos||neg) ? ` · оценки: +${pos} / −${neg}` : '';
+}
+function updateCount(){
+  $('#count').textContent = `${curListLen} записей · ${curSrcs} источников${fbSummary()}`;
+}
+
 function render(){
   const srcs = [...new Set(ALL.map(i=>i.source))].sort();
   const list = ALL.filter(i =>
     (cat==='all' || i.category===cat) &&
     (!q || (i.title+' '+i.summary+' '+i.digest+' '+i.source).toLowerCase().includes(q.toLowerCase()))
   );
-  $('#count').textContent = `${list.length} записей · ${srcs.length} источников`;
+  curListLen = list.length; curSrcs = srcs.length; updateCount();
   const feed = $('#feed');
   feed.innerHTML = list.length ? '' : '<div class="empty">Пока пусто — запустите сбор.</div>';
   for(const it of list){
     const isRead = read.has(it.id);
+    const f = fb[it.id];
     const el = document.createElement('article');
     el.className = 'card' + (isRead?' read':'');
     el.innerHTML = `
@@ -153,6 +182,8 @@ function render(){
         <span class="src">${esc(it.source)}</span>
         <span class="time">${fmtDate(it.published_iso || it.published)}</span>
         <span class="spacer"></span>
+        <button class="fb-btn pos ${f&&f.v===1?'active':''}" data-v="1" title="нравится">+</button>
+        <button class="fb-btn neg ${f&&f.v===-1?'active':''}" data-v="-1" title="не нравится">−</button>
         <button class="read-toggle" title="прочитано">${isRead?'✓':'○'}</button>
       </div>
       <h2 class="title">${esc(it.title)}</h2>
@@ -162,9 +193,13 @@ function render(){
         ${it.critique?`<div class="critique"><h3>Критический разбор</h3>${md(it.critique)}</div>`:''}
         ${it.error?`<div class="critique"><h3>Ошибка</h3><p>${esc(it.error)}</p></div>`:''}
         <a class="orig" href="${esc(it.url)}" target="_blank" rel="noopener">Читать оригинал →</a>
+        <button class="collapse">Свернуть ↑</button>
       </div>`;
     el.addEventListener('click', e => {
+      const fbBtn = e.target.closest('.fb-btn');
+      if(fbBtn){ toggleFb(it.id, +fbBtn.dataset.v, el, it); return; }
       if(e.target.closest('.read-toggle')){ toggleRead(it.id, el); return; }
+      if(e.target.closest('.collapse')){ collapse(el); return; }
       if(e.target.closest('a')) return;
       const full = el.querySelector('.full');
       full.hidden = !full.hidden;
@@ -180,11 +215,42 @@ function toggleRead(id, el){
   localStorage.setItem('aidf.read', JSON.stringify([...read]));
 }
 
+function toggleFb(id, v, el, it){
+  if(fb[id] && fb[id].v===v){ delete fb[id]; }
+  else { fb[id] = {v, ts:Date.now(), title: it.title, source: it.source, url: it.url}; }
+  localStorage.setItem('aidf.feedback', JSON.stringify(fb));
+  el.querySelectorAll('.fb-btn').forEach(b => b.classList.toggle('active', !!fb[id] && +b.dataset.v===fb[id].v));
+  updateCount();
+}
+
+function collapse(el){
+  el.querySelector('.full').hidden = true;
+  el.classList.remove('open');
+}
+
+function exportFb(){
+  const data = Object.entries(fb).map(([id,v])=>({id, ...v})).sort((a,b)=>b.ts-a.ts);
+  const blob = new Blob([JSON.stringify(data,null,2)], {type:'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'aidf-feedback.json';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
 document.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () => {
   document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on'));
   c.classList.add('on'); cat = c.dataset.cat; render();
 }));
 $('#q').addEventListener('input', e => { q = e.target.value.trim(); render(); });
+$('#exportBtn').addEventListener('click', exportFb);
+
+let fs = parseInt(localStorage.getItem('aidf.fs')) || 15;
+if(isNaN(fs) || fs<12 || fs>22) fs = 15;
+function applyFs(){ document.documentElement.style.setProperty('--fs', fs+'px'); }
+applyFs();
+$('#fsMinus').addEventListener('click', () => { fs = Math.max(12, fs-1); applyFs(); localStorage.setItem('aidf.fs', fs); });
+$('#fsPlus').addEventListener('click', () => { fs = Math.min(22, fs+1); applyFs(); localStorage.setItem('aidf.fs', fs); });
 
 const theme = localStorage.getItem('aidf.theme') || 'dark';
 document.documentElement.dataset.theme = theme;
