@@ -183,30 +183,29 @@
    "https://openrouter.ai/blog/tutorials/use-openrouter-models-in-cursor-try-it-with-moonshot-ais-kimi-k2/",
    "https://openrouter.ai/blog/tutorials/video-generation-api/"
   ],
-  "updated": "2026-11-19T20:02:15Z"
+  "updated": "2026-11-20T05:58:57Z"
  },
  "alphaXiv Trending": {
   "seen": [
-   "https://arxiv.org/abs/2607.25357",
-   "https://arxiv.org/abs/2611.21250",
-   "https://arxiv.org/abs/2611.21607",
+   "https://arxiv.org/abs/2603.10302",
+   "https://arxiv.org/abs/2611.21608",
    "https://arxiv.org/abs/2611.21919",
    "https://arxiv.org/abs/2611.21925",
    "https://arxiv.org/abs/2611.22287",
    "https://arxiv.org/abs/2611.22925",
-   "https://arxiv.org/abs/2611.22962",
-   "https://arxiv.org/abs/2611.22995",
    "https://arxiv.org/abs/2611.23001",
    "https://arxiv.org/abs/2611.23068",
    "https://arxiv.org/abs/2611.23144",
-   "https://arxiv.org/abs/2611.23151",
    "https://arxiv.org/abs/2611.23219",
    "https://arxiv.org/abs/2611.24731",
    "https://arxiv.org/abs/2611.24738",
    "https://arxiv.org/abs/2611.24778",
+   "https://arxiv.org/abs/2611.24816",
+   "https://arxiv.org/abs/2611.24892",
+   "https://arxiv.org/abs/2611.24917",
    "https://arxiv.org/abs/2611.24926"
   ],
-  "updated": "2026-11-19T20:02:15Z"
+  "updated": "2026-11-20T05:58:57Z"
  },
  "Claude Academy": {
   "seen": [
@@ -240,7 +239,7 @@
    "https://academy.claude.com/courses/teaching-ai-fluency",
    "https://academy.claude.com/courses/tool-use-with-the-messages-api"
   ],
-  "updated": "2026-11-19T20:02:15Z"
+  "updated": "2026-11-20T05:58:58Z"
  },
  "Anthropic Research": {
   "seen": [
@@ -465,7 +464,7 @@
    "https://www.anthropic.com/research/your-thoughts-on-ai",
    "https://www.anthropic.com/research/zero-days"
   ],
-  "updated": "2026-11-19T20:02:15Z"
+  "updated": "2026-11-20T05:58:58Z"
  },
  "Google DeepMind": {
   "seen": [
@@ -570,7 +569,7 @@
    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
   ],
-  "updated": "2026-11-19T20:02:16Z"
+  "updated": "2026-11-20T05:58:58Z"
  },
  "Hugging Face": {
   "seen": [
@@ -1488,7 +1487,7 @@
    "https://huggingface.co/blog/zero-shot-vqa-docmatix",
    "https://huggingface.co/blog/zerogpu-aoti"
   ],
-  "updated": "2026-11-19T20:02:16Z"
+  "updated": "2026-11-20T05:58:58Z"
  },
  "Simon Willison": {
   "seen": [
@@ -1520,10 +1519,10 @@
    "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
    "https://simonwillison.net/2026/Nov/18/llm-gemini/",
    "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
-   "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
-   "https://simonwillison.net/2026/Nov/9/mysterious-beeps/"
+   "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+   "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
   ],
-  "updated": "2026-11-19T20:02:16Z"
+  "updated": "2026-11-20T05:58:59Z"
  },
  "Евгений Кузнецов": {
   "seen": [
