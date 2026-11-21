@@ -183,11 +183,11 @@
    "https://openrouter.ai/blog/tutorials/use-openrouter-models-in-cursor-try-it-with-moonshot-ais-kimi-k2/",
    "https://openrouter.ai/blog/tutorials/video-generation-api/"
   ],
-  "updated": "2026-11-20T23:44:21Z"
+  "updated": "2026-11-21T05:53:30Z"
  },
  "alphaXiv Trending": {
   "seen": [
-   "https://arxiv.org/abs/2606.16241",
+   "https://arxiv.org/abs/2610.14219",
    "https://arxiv.org/abs/2611.24651",
    "https://arxiv.org/abs/2611.24738",
    "https://arxiv.org/abs/2611.24778",
@@ -202,7 +202,7 @@
    "https://arxiv.org/abs/2611.26619",
    "https://arxiv.org/abs/2611.26629"
   ],
-  "updated": "2026-11-20T23:44:22Z"
+  "updated": "2026-11-21T05:53:30Z"
  },
  "Claude Academy": {
   "seen": [
@@ -236,7 +236,7 @@
    "https://academy.claude.com/courses/teaching-ai-fluency",
    "https://academy.claude.com/courses/tool-use-with-the-messages-api"
   ],
-  "updated": "2026-11-20T23:44:22Z"
+  "updated": "2026-11-21T05:53:30Z"
  },
  "Anthropic Research": {
   "seen": [
@@ -461,7 +461,7 @@
    "https://www.anthropic.com/research/your-thoughts-on-ai",
    "https://www.anthropic.com/research/zero-days"
   ],
-  "updated": "2026-11-20T23:44:22Z"
+  "updated": "2026-11-21T05:53:30Z"
  },
  "Google DeepMind": {
   "seen": [
@@ -566,7 +566,7 @@
    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
   ],
-  "updated": "2026-11-20T23:44:22Z"
+  "updated": "2026-11-21T05:53:30Z"
  },
  "Hugging Face": {
   "seen": [
@@ -1486,7 +1486,7 @@
    "https://huggingface.co/blog/zero-shot-vqa-docmatix",
    "https://huggingface.co/blog/zerogpu-aoti"
   ],
-  "updated": "2026-11-20T23:44:22Z"
+  "updated": "2026-11-21T05:53:31Z"
  },
  "Simon Willison": {
   "seen": [
@@ -1521,7 +1521,7 @@
    "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
    "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
   ],
-  "updated": "2026-11-20T23:44:22Z"
+  "updated": "2026-11-21T05:53:31Z"
  },
  "Евгений Кузнецов": {
   "seen": [
