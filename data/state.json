@@ -139,6 +139,7 @@
    "https://openrouter.ai/blog/tutorials/build-tool-calling-agent-loop/",
    "https://openrouter.ai/blog/tutorials/build-voice-ai-agent/",
    "https://openrouter.ai/blog/tutorials/building-a-golden-eval-dataset-from-production-traffic/",
+   "https://openrouter.ai/blog/tutorials/can-claude-generate-images/",
    "https://openrouter.ai/blog/tutorials/choose-best-ai-model/",
    "https://openrouter.ai/blog/tutorials/claude-529-overloaded/",
    "https://openrouter.ai/blog/tutorials/claude-code-openrouter/",
@@ -184,31 +185,31 @@
    "https://openrouter.ai/blog/tutorials/use-openrouter-models-in-cursor-try-it-with-moonshot-ais-kimi-k2/",
    "https://openrouter.ai/blog/tutorials/video-generation-api/"
   ],
-  "updated": "2026-11-25T07:18:41Z"
+  "updated": "2026-11-25T21:10:38Z"
  },
  "alphaXiv Trending": {
   "seen": [
-   "https://arxiv.org/abs/2610.02946",
-   "https://arxiv.org/abs/2611.28298",
-   "https://arxiv.org/abs/2611.30017",
+   "https://arxiv.org/abs/2506.14038",
    "https://arxiv.org/abs/2611.30111",
    "https://arxiv.org/abs/2611.30325",
-   "https://arxiv.org/abs/2611.30597",
-   "https://arxiv.org/abs/2611.30637",
    "https://arxiv.org/abs/2611.30714",
-   "https://arxiv.org/abs/2611.30771",
-   "https://arxiv.org/abs/2611.30813",
-   "https://arxiv.org/abs/2611.30916",
    "https://arxiv.org/abs/2611.30963",
    "https://arxiv.org/abs/2611.30965",
    "https://arxiv.org/abs/2611.31002",
-   "https://arxiv.org/abs/2611.31076",
+   "https://arxiv.org/abs/2611.31094",
    "https://arxiv.org/abs/2611.31118",
    "https://arxiv.org/abs/2611.31154",
-   "https://arxiv.org/abs/2611.31201",
-   "https://arxiv.org/abs/2611.31240"
+   "https://arxiv.org/abs/2611.31240",
+   "https://arxiv.org/abs/2611.32183",
+   "https://arxiv.org/abs/2611.32606",
+   "https://arxiv.org/abs/2611.32654",
+   "https://arxiv.org/abs/2611.32973",
+   "https://arxiv.org/abs/2611.33054",
+   "https://arxiv.org/abs/2611.33102",
+   "https://arxiv.org/abs/2611.33144",
+   "https://arxiv.org/abs/2611.33158"
   ],
-  "updated": "2026-11-25T07:18:42Z"
+  "updated": "2026-11-25T21:10:38Z"
  },
  "Claude Academy": {
   "seen": [
@@ -242,7 +243,7 @@
    "https://academy.claude.com/courses/teaching-ai-fluency",
    "https://academy.claude.com/courses/tool-use-with-the-messages-api"
   ],
-  "updated": "2026-11-25T07:18:42Z"
+  "updated": "2026-11-25T21:10:39Z"
  },
  "Anthropic Research": {
   "seen": [
@@ -394,6 +395,7 @@
    "https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning",
    "https://www.anthropic.com/research/measuring-model-persuasiveness",
    "https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models",
+   "https://www.anthropic.com/research/migrating-api-to-rust",
    "https://www.anthropic.com/research/multi-agent-research-system",
    "https://www.anthropic.com/research/multiagent-systems",
    "https://www.anthropic.com/research/mythos-preview",
@@ -468,7 +470,7 @@
    "https://www.anthropic.com/research/your-thoughts-on-ai",
    "https://www.anthropic.com/research/zero-days"
   ],
-  "updated": "2026-11-25T07:18:42Z"
+  "updated": "2026-11-25T21:10:39Z"
  },
  "Google DeepMind": {
   "seen": [
@@ -506,7 +508,6 @@
    "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
    "https://deepmind.google/blog/gemini-3-5-frontier-intelligence-with-action/",
    "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
-   "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/",
    "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
    "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
    "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
@@ -525,6 +526,7 @@
    "https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/",
    "https://deepmind.google/blog/how-weathernext-helped-the-national-hurricane-center-better-predict-hurricane-melissas-historic-landfall-in-jamaica/",
    "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+   "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
    "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
    "https://deepmind.google/blog/introducing-alphaproof-code/",
    "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
@@ -573,7 +575,7 @@
    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
   ],
-  "updated": "2026-11-25T07:18:42Z"
+  "updated": "2026-11-25T21:10:39Z"
  },
  "Hugging Face": {
   "seen": [
@@ -662,7 +664,7 @@
    "https://huggingface.co/blog/allenai/discoformer",
    "https://huggingface.co/blog/allenai/olmoearth-embeddings",
    "https://huggingface.co/blog/allenai/olmoearth-v1-1",
-   "https://huggingface.co/blog/allenai/robotrack",
+   "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
    "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
    "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
    "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
@@ -978,13 +980,13 @@
    "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
    "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
    "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+   "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
    "https://huggingface.co/blog/ibm-research/assetopsbench-playground-on-hugging-face",
    "https://huggingface.co/blog/ibm-research/cuga-on-hugging-face",
    "https://huggingface.co/blog/ibm-research/itbenchandmast",
    "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
    "https://huggingface.co/blog/ibm-research/palette-deck-building",
    "https://huggingface.co/blog/ibm-research/scarfbench",
-   "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
    "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
    "https://huggingface.co/blog/icml-2026-open-reproductions",
    "https://huggingface.co/blog/idefics",
@@ -1015,6 +1017,7 @@
    "https://huggingface.co/blog/infinity-cpu-performance",
    "https://huggingface.co/blog/informer",
    "https://huggingface.co/blog/infrastructure-alerting",
+   "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
    "https://huggingface.co/blog/inkling2mini",
    "https://huggingface.co/blog/instruction-tuning-sd",
    "https://huggingface.co/blog/intel",
@@ -1494,7 +1497,7 @@
    "https://huggingface.co/blog/zero-shot-vqa-docmatix",
    "https://huggingface.co/blog/zerogpu-aoti"
   ],
-  "updated": "2026-11-25T07:18:42Z"
+  "updated": "2026-11-25T21:10:39Z"
  },
  "Simon Willison": {
   "seen": [
@@ -1529,7 +1532,7 @@
    "https://simonwillison.net/2026/Nov/24/datasette-charts/",
    "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
   ],
-  "updated": "2026-11-25T07:18:43Z"
+  "updated": "2026-11-25T21:10:39Z"
  },
  "Евгений Кузнецов": {
   "seen": [
@@ -1554,6 +1557,6 @@
    "https://eugenykuznetsov.substack.com/p/eve-online-google-deepmind-ccpfenris",
    "https://eugenykuznetsov.substack.com/p/f2b"
   ],
-  "updated": "2026-11-18T14:15:34Z"
+  "updated": "2026-11-25T21:10:40Z"
  }
 }
