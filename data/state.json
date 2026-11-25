@@ -184,13 +184,12 @@
    "https://openrouter.ai/blog/tutorials/use-openrouter-models-in-cursor-try-it-with-moonshot-ais-kimi-k2/",
    "https://openrouter.ai/blog/tutorials/video-generation-api/"
   ],
-  "updated": "2026-11-24T21:58:37Z"
+  "updated": "2026-11-25T07:18:41Z"
  },
  "alphaXiv Trending": {
   "seen": [
-   "https://arxiv.org/abs/2607.12800",
+   "https://arxiv.org/abs/2610.02946",
    "https://arxiv.org/abs/2611.28298",
-   "https://arxiv.org/abs/2611.30013",
    "https://arxiv.org/abs/2611.30017",
    "https://arxiv.org/abs/2611.30111",
    "https://arxiv.org/abs/2611.30325",
@@ -201,6 +200,7 @@
    "https://arxiv.org/abs/2611.30813",
    "https://arxiv.org/abs/2611.30916",
    "https://arxiv.org/abs/2611.30963",
+   "https://arxiv.org/abs/2611.30965",
    "https://arxiv.org/abs/2611.31002",
    "https://arxiv.org/abs/2611.31076",
    "https://arxiv.org/abs/2611.31118",
@@ -208,7 +208,7 @@
    "https://arxiv.org/abs/2611.31201",
    "https://arxiv.org/abs/2611.31240"
   ],
-  "updated": "2026-11-24T21:58:38Z"
+  "updated": "2026-11-25T07:18:42Z"
  },
  "Claude Academy": {
   "seen": [
@@ -242,7 +242,7 @@
    "https://academy.claude.com/courses/teaching-ai-fluency",
    "https://academy.claude.com/courses/tool-use-with-the-messages-api"
   ],
-  "updated": "2026-11-24T21:58:38Z"
+  "updated": "2026-11-25T07:18:42Z"
  },
  "Anthropic Research": {
   "seen": [
@@ -468,7 +468,7 @@
    "https://www.anthropic.com/research/your-thoughts-on-ai",
    "https://www.anthropic.com/research/zero-days"
   ],
-  "updated": "2026-11-24T21:58:38Z"
+  "updated": "2026-11-25T07:18:42Z"
  },
  "Google DeepMind": {
   "seen": [
@@ -573,7 +573,7 @@
    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
   ],
-  "updated": "2026-11-24T21:58:38Z"
+  "updated": "2026-11-25T07:18:42Z"
  },
  "Hugging Face": {
   "seen": [
@@ -1494,11 +1494,10 @@
    "https://huggingface.co/blog/zero-shot-vqa-docmatix",
    "https://huggingface.co/blog/zerogpu-aoti"
   ],
-  "updated": "2026-11-24T21:58:38Z"
+  "updated": "2026-11-25T07:18:42Z"
  },
  "Simon Willison": {
   "seen": [
-   "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
    "https://simonwillison.net/2026/Nov/14/datasette-llm/",
    "https://simonwillison.net/2026/Nov/14/datasette-vega/",
    "https://simonwillison.net/2026/Nov/15/datasette-2/",
@@ -1527,9 +1526,10 @@
    "https://simonwillison.net/2026/Nov/23/ladybird/",
    "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
    "https://simonwillison.net/2026/Nov/24/datasette-agent/",
-   "https://simonwillison.net/2026/Nov/24/datasette-charts/"
+   "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+   "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
   ],
-  "updated": "2026-11-24T21:58:39Z"
+  "updated": "2026-11-25T07:18:43Z"
  },
  "Евгений Кузнецов": {
   "seen": [
