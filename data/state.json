@@ -185,31 +185,28 @@
    "https://openrouter.ai/blog/tutorials/use-openrouter-models-in-cursor-try-it-with-moonshot-ais-kimi-k2/",
    "https://openrouter.ai/blog/tutorials/video-generation-api/"
   ],
-  "updated": "2026-11-25T21:10:38Z"
+  "updated": "2026-11-26T07:07:43Z"
  },
  "alphaXiv Trending": {
   "seen": [
-   "https://arxiv.org/abs/2506.14038",
+   "https://arxiv.org/abs/2512.00391",
    "https://arxiv.org/abs/2611.30111",
    "https://arxiv.org/abs/2611.30325",
-   "https://arxiv.org/abs/2611.30714",
    "https://arxiv.org/abs/2611.30963",
-   "https://arxiv.org/abs/2611.30965",
    "https://arxiv.org/abs/2611.31002",
-   "https://arxiv.org/abs/2611.31094",
    "https://arxiv.org/abs/2611.31118",
    "https://arxiv.org/abs/2611.31154",
-   "https://arxiv.org/abs/2611.31240",
    "https://arxiv.org/abs/2611.32183",
    "https://arxiv.org/abs/2611.32606",
    "https://arxiv.org/abs/2611.32654",
    "https://arxiv.org/abs/2611.32973",
    "https://arxiv.org/abs/2611.33054",
    "https://arxiv.org/abs/2611.33102",
+   "https://arxiv.org/abs/2611.33141",
    "https://arxiv.org/abs/2611.33144",
    "https://arxiv.org/abs/2611.33158"
   ],
-  "updated": "2026-11-25T21:10:38Z"
+  "updated": "2026-11-26T07:07:43Z"
  },
  "Claude Academy": {
   "seen": [
@@ -243,7 +240,7 @@
    "https://academy.claude.com/courses/teaching-ai-fluency",
    "https://academy.claude.com/courses/tool-use-with-the-messages-api"
   ],
-  "updated": "2026-11-25T21:10:39Z"
+  "updated": "2026-11-26T07:07:44Z"
  },
  "Anthropic Research": {
   "seen": [
@@ -470,7 +467,7 @@
    "https://www.anthropic.com/research/your-thoughts-on-ai",
    "https://www.anthropic.com/research/zero-days"
   ],
-  "updated": "2026-11-25T21:10:39Z"
+  "updated": "2026-11-26T07:07:44Z"
  },
  "Google DeepMind": {
   "seen": [
@@ -575,7 +572,7 @@
    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
   ],
-  "updated": "2026-11-25T21:10:39Z"
+  "updated": "2026-11-26T07:07:44Z"
  },
  "Hugging Face": {
   "seen": [
@@ -1161,13 +1158,13 @@
    "https://huggingface.co/blog/nvidia-training-cluster",
    "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
    "https://huggingface.co/blog/nvidia/ai-q-top-ranking-open-portable-deep-research-agent",
+   "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
    "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
    "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
    "https://huggingface.co/blog/nvidia/gr00t-n1-5-so101-tuning",
    "https://huggingface.co/blog/nvidia/kvpress",
    "https://huggingface.co/blog/nvidia/llama-nemotron-nano-vl",
    "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-   "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
    "https://huggingface.co/blog/nvidia/multi-llm-nim",
    "https://huggingface.co/blog/nvidia/multilingual-reasoning-v1",
    "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
@@ -1497,15 +1494,11 @@
    "https://huggingface.co/blog/zero-shot-vqa-docmatix",
    "https://huggingface.co/blog/zerogpu-aoti"
   ],
-  "updated": "2026-11-25T21:10:39Z"
+  "updated": "2026-11-26T07:07:44Z"
  },
  "Simon Willison": {
   "seen": [
-   "https://simonwillison.net/2026/Nov/14/datasette-llm/",
-   "https://simonwillison.net/2026/Nov/14/datasette-vega/",
    "https://simonwillison.net/2026/Nov/15/datasette-2/",
-   "https://simonwillison.net/2026/Nov/15/datasette-agent/",
-   "https://simonwillison.net/2026/Nov/15/datasette-apps/",
    "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
    "https://simonwillison.net/2026/Nov/15/datasette/",
    "https://simonwillison.net/2026/Nov/16/llm/",
@@ -1529,10 +1522,14 @@
    "https://simonwillison.net/2026/Nov/23/ladybird/",
    "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
    "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+   "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
    "https://simonwillison.net/2026/Nov/24/datasette-charts/",
-   "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
+   "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+   "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+   "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+   "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/"
   ],
-  "updated": "2026-11-25T21:10:39Z"
+  "updated": "2026-11-26T07:07:44Z"
  },
  "Евгений Кузнецов": {
   "seen": [
