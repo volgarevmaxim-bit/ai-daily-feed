@@ -186,30 +186,31 @@
    "https://openrouter.ai/blog/tutorials/use-openrouter-models-in-cursor-try-it-with-moonshot-ais-kimi-k2/",
    "https://openrouter.ai/blog/tutorials/video-generation-api/"
   ],
-  "updated": "2026-11-27T07:02:20Z"
+  "updated": "2026-11-27T20:45:01Z"
  },
  "alphaXiv Trending": {
   "seen": [
-   "https://arxiv.org/abs/2605.12278",
+   "https://arxiv.org/abs/2609.31204",
    "https://arxiv.org/abs/2611.30325",
    "https://arxiv.org/abs/2611.31154",
-   "https://arxiv.org/abs/2611.32183",
    "https://arxiv.org/abs/2611.32606",
-   "https://arxiv.org/abs/2611.33054",
    "https://arxiv.org/abs/2611.33102",
-   "https://arxiv.org/abs/2611.33141",
    "https://arxiv.org/abs/2611.33158",
+   "https://arxiv.org/abs/2611.33896",
    "https://arxiv.org/abs/2611.34051",
-   "https://arxiv.org/abs/2611.34292",
-   "https://arxiv.org/abs/2611.34466",
+   "https://arxiv.org/abs/2611.34147",
    "https://arxiv.org/abs/2611.34575",
    "https://arxiv.org/abs/2611.34675",
+   "https://arxiv.org/abs/2611.34778",
+   "https://arxiv.org/abs/2611.34782",
+   "https://arxiv.org/abs/2611.34821",
    "https://arxiv.org/abs/2611.34907",
    "https://arxiv.org/abs/2611.34923",
    "https://arxiv.org/abs/2611.34924",
+   "https://arxiv.org/abs/2611.34935",
    "https://arxiv.org/abs/2611.34944"
   ],
-  "updated": "2026-11-27T07:02:21Z"
+  "updated": "2026-11-27T20:45:01Z"
  },
  "Claude Academy": {
   "seen": [
@@ -243,7 +244,7 @@
    "https://academy.claude.com/courses/teaching-ai-fluency",
    "https://academy.claude.com/courses/tool-use-with-the-messages-api"
   ],
-  "updated": "2026-11-27T07:02:21Z"
+  "updated": "2026-11-27T20:45:01Z"
  },
  "Anthropic Research": {
   "seen": [
@@ -470,7 +471,7 @@
    "https://www.anthropic.com/research/your-thoughts-on-ai",
    "https://www.anthropic.com/research/zero-days"
   ],
-  "updated": "2026-11-27T07:02:21Z"
+  "updated": "2026-11-27T20:45:01Z"
  },
  "Google DeepMind": {
   "seen": [
@@ -575,7 +576,7 @@
    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
   ],
-  "updated": "2026-11-27T07:02:21Z"
+  "updated": "2026-11-27T20:45:01Z"
  },
  "Hugging Face": {
   "seen": [
@@ -1462,6 +1463,7 @@
    "https://huggingface.co/blog/vibegame",
    "https://huggingface.co/blog/vid_ds_scripts",
    "https://huggingface.co/blog/video-encoding",
+   "https://huggingface.co/blog/video-trainium3",
    "https://huggingface.co/blog/video_gen",
    "https://huggingface.co/blog/virtual-cell-challenge",
    "https://huggingface.co/blog/virustotal",
@@ -1498,7 +1500,7 @@
    "https://huggingface.co/blog/zero-shot-vqa-docmatix",
    "https://huggingface.co/blog/zerogpu-aoti"
   ],
-  "updated": "2026-11-27T07:02:21Z"
+  "updated": "2026-11-27T20:45:02Z"
  },
  "Simon Willison": {
   "seen": [
@@ -1533,7 +1535,7 @@
    "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
    "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/"
   ],
-  "updated": "2026-11-27T07:02:21Z"
+  "updated": "2026-11-27T20:45:02Z"
  },
  "Евгений Кузнецов": {
   "seen": [
