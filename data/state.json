@@ -186,12 +186,11 @@
    "https://openrouter.ai/blog/tutorials/use-openrouter-models-in-cursor-try-it-with-moonshot-ais-kimi-k2/",
    "https://openrouter.ai/blog/tutorials/video-generation-api/"
   ],
-  "updated": "2026-11-26T20:59:47Z"
+  "updated": "2026-11-27T07:02:20Z"
  },
  "alphaXiv Trending": {
   "seen": [
-   "https://arxiv.org/abs/2605.24490",
-   "https://arxiv.org/abs/2611.30111",
+   "https://arxiv.org/abs/2605.12278",
    "https://arxiv.org/abs/2611.30325",
    "https://arxiv.org/abs/2611.31154",
    "https://arxiv.org/abs/2611.32183",
@@ -199,17 +198,18 @@
    "https://arxiv.org/abs/2611.33054",
    "https://arxiv.org/abs/2611.33102",
    "https://arxiv.org/abs/2611.33141",
-   "https://arxiv.org/abs/2611.33144",
    "https://arxiv.org/abs/2611.33158",
+   "https://arxiv.org/abs/2611.34051",
    "https://arxiv.org/abs/2611.34292",
    "https://arxiv.org/abs/2611.34466",
    "https://arxiv.org/abs/2611.34575",
+   "https://arxiv.org/abs/2611.34675",
    "https://arxiv.org/abs/2611.34907",
    "https://arxiv.org/abs/2611.34923",
    "https://arxiv.org/abs/2611.34924",
    "https://arxiv.org/abs/2611.34944"
   ],
-  "updated": "2026-11-26T20:59:48Z"
+  "updated": "2026-11-27T07:02:21Z"
  },
  "Claude Academy": {
   "seen": [
@@ -243,7 +243,7 @@
    "https://academy.claude.com/courses/teaching-ai-fluency",
    "https://academy.claude.com/courses/tool-use-with-the-messages-api"
   ],
-  "updated": "2026-11-26T20:59:48Z"
+  "updated": "2026-11-27T07:02:21Z"
  },
  "Anthropic Research": {
   "seen": [
@@ -470,7 +470,7 @@
    "https://www.anthropic.com/research/your-thoughts-on-ai",
    "https://www.anthropic.com/research/zero-days"
   ],
-  "updated": "2026-11-26T20:59:48Z"
+  "updated": "2026-11-27T07:02:21Z"
  },
  "Google DeepMind": {
   "seen": [
@@ -575,7 +575,7 @@
    "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
    "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/"
   ],
-  "updated": "2026-11-26T20:59:48Z"
+  "updated": "2026-11-27T07:02:21Z"
  },
  "Hugging Face": {
   "seen": [
@@ -1498,7 +1498,7 @@
    "https://huggingface.co/blog/zero-shot-vqa-docmatix",
    "https://huggingface.co/blog/zerogpu-aoti"
   ],
-  "updated": "2026-11-26T20:59:48Z"
+  "updated": "2026-11-27T07:02:21Z"
  },
  "Simon Willison": {
   "seen": [
@@ -1533,7 +1533,7 @@
    "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
    "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/"
   ],
-  "updated": "2026-11-26T20:59:49Z"
+  "updated": "2026-11-27T07:02:21Z"
  },
  "Евгений Кузнецов": {
   "seen": [
